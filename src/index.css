@@ -1,16 +1,26 @@
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
+  margin: 0 auto;
   font-weight: 400;
-
-  color-scheme: light dark;
+  border: 2pt solid hotpink;
+  color-scheme: dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  background-color: #222843;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 1080px;
 }
 
 a {
@@ -25,9 +35,14 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  flex-direction: column;
+  /* border: 2pt solid lime; */
+  min-width: 100%;
   min-height: 100vh;
+  max-width: 1080px;
+  /* padding-left: 10px;
+  padding-right: 10px;
+  */
 }
 
 h1 {
