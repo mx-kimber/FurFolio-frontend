@@ -1,0 +1,9 @@
+.container-col {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.font-14 {
+  font-size: 14px;
+}

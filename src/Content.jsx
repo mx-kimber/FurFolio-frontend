@@ -1,6 +1,7 @@
 import React from 'react'
 import "./CSS/Global.css"
 import { Signup } from './Signup'
+import UsersIndex from './UsersIndex'
 
 export function Content() {
   return (
@@ -8,6 +9,7 @@ export function Content() {
       <div>Content</div>
       
       <div><Signup /></div>
+      <div><UsersIndex /></div>
     </div>
   )
 }
