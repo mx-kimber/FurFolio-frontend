@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./CSS/Global.css"
 
 export function UsersIndex() {
   const [users, setUsers] = useState([]); 
@@ -21,7 +20,7 @@ export function UsersIndex() {
       <h2>Users Index</h2>
      
       {users.map((user) => (
-        <div key={user.id} className="container-col font-14">
+        <div key={user.id} className="">
           <div>Handle: {user.handle}</div>
           <div>Email: {user.email}</div>
           <div>First Name: {user.first_name}</div>

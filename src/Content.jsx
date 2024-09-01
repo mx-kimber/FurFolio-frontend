@@ -1,10 +1,9 @@
 import React from 'react'
-import "./CSS/Global.css"
 import { Signup } from './Signup'
 import UsersIndex from './UsersIndex'
 
 export function Content() {
-  return (
+  return ( 
     <div>
       <div>Content</div>
       

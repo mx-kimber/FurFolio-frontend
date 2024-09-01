@@ -2,7 +2,11 @@ import React from 'react'
 
 export function Header() {
   return (
-    <div>Header</div>
+    <header>
+      <div>
+        Header
+      </div>
+    </header>
   )
 }
 
